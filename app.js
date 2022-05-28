@@ -245,6 +245,41 @@ var ahmer = 50
 var result = (ahmer+5)*10/2
 document.write("The Result is" + " " + result);
 // QUESTION NO 11
+var cyear=2022;
+var birthYear=2003;
+var age = cyear - birthYear;
+document.write("<h2> AGE CALCULATOR"  + "</h2>");
+document.write("CURRENT YEAR =  "  + cyear  + "<br />");
+document.write("BIRTH YEAR =  "  +  birthYear + "<br />");
+document.write("YOUR AGE IS =  "  +  age + "<br />");
+// QUESTION NO 12
+var geoMetrizer = "The Geometrizer"
+var radius = 25
+var area = 3.14*radius**2
+var circumference = 2*3.14*radius
+document.write("<h2>" + geoMetrizer + "</h2>" );
+document.write("Radius of a Circle is" + " " + radius + "<br>");
+document.write("The Cirumference is" + " " + circumference + "<br>");
+document.write("The Area is" + " " + area + "<br>");
+// QUESTION NO 13
+
+var calc = "The Lifetime Supply Calculator:"
+var favouriteSnack = "Chocolate"
+var currentAge = 19
+var maximumAge = 90
+var amountOfSnack = 5
+var result = (maximumAge-currentAge)*amountOfSnack
+
+document.write("<h1>" + calc + "</h1>" );
+document.write("Favourite Snack is" + " " + favouriteSnack + "<br>");
+document.write("Current Age is" + " " + currentAge + "<br>");
+document.write("Estimated Maximum Age is" + " " + maximumAge + "<br>");
+document.write("Amount of Sanck Per Day is" + " " + amountOfSnack + "<br>");
+document.write("You Will Need"+" " + result + " " + favouriteSnack + " " + "To Last You The Ripe Old Age Of" + " " + maximumAge + "<br>");
+
+
+
+
 
 
 
