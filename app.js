@@ -226,3 +226,27 @@ document.write("THE QUANTITY OF ITEM 1 IS"+ orderedQuantityofItem1  + "<br />");
 document.write("THE QUANTITY OF ITEM 2 IS"+ orderedQuantityofItem2  + "<br />" + "<br />");
 document.write("<h5> TOTAL COST OF YOUR ORDER IS "  + totalshop +"</h5>");
 // QUESTION NO 7 FINISHED
+// QUESTION NO 8
+var obtainedMarks=777;
+var totalMarks=1000;
+var percentage=(obtainedMarks/totalMarks)*100;
+document.write("<h2> MARK SHEET "  + "</h2>");
+document.write("THE TOTAL MARKS OF A STUDENT =  "  + totalMarks  + "<br />");
+document.write("THE OBTAINED MARKS OF A STUDENT =  "  + obtainedMarks  + "<br />");
+document.write("THE PERCENTAGE OF A STUDENT =  "  + percentage  +"%"+ "<br />");
+// QUESTION NO 9
+var dollar=10;
+var riyal=25;
+var totalCurrency=(10*104.80)+(25*28);
+document.write("<h2> CURRENCY IN PKR "  + "</h2>");
+document.write("<h5> TOTAL CURRENCY IN PKR IS "  + totalCurrency +"</h5>");
+
+
+
+
+
+
+
+
+
+
