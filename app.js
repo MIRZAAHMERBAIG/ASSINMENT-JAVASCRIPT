@@ -240,7 +240,11 @@ var riyal=25;
 var totalCurrency=(10*104.80)+(25*28);
 document.write("<h2> CURRENCY IN PKR "  + "</h2>");
 document.write("<h5> TOTAL CURRENCY IN PKR IS "  + totalCurrency +"</h5>");
-
+// QUESTION NO 10
+var ahmer = 50
+var result = (ahmer+5)*10/2
+document.write("The Result is" + " " + result);
+// QUESTION NO 11
 
 
 
