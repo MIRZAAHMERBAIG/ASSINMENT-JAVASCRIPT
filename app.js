@@ -276,6 +276,97 @@ document.write("Current Age is" + " " + currentAge + "<br>");
 document.write("Estimated Maximum Age is" + " " + maximumAge + "<br>");
 document.write("Amount of Sanck Per Day is" + " " + amountOfSnack + "<br>");
 document.write("You Will Need"+" " + result + " " + favouriteSnack + " " + "To Last You The Ripe Old Age Of" + " " + maximumAge + "<br>");
+document.write("<h2> CHAPTER 6-9 </h2>");
+
+
+
+                                // CHAPTER 6-9
+// QUESTION NO 1
+
+ var a =10;
+ document.write("<h2> RESULT </H2>");
+ document.write("THE VALUE OF A IS : " + a + "<br>");
+ document.write("..................................." + "<br>");
+ document.write("THE VALUE OF  ++a IS : " +  ++a + "<br>");
+ document.write("NOW THE VALUE OF A IS " + a + "<br>" + "<br>");
+ document.write("THE VALUE OF  ++a IS : " +  a + "<br>");
+ document.write("NOW THE VALUE OF A IS " +  ++a + "<br>" + "<br>");
+ document.write("THE VALUE OF  --a IS : " +  --a + "<br>");
+ document.write("NOW THE VALUE OF A IS " +  a + "<br>" + "<br>");
+ document.write("THE VALUE OF  --a IS : " +  a + "<br>");
+ document.write("NOW THE VALUE OF A IS " +  --a + "<br>" + "<br>");
+
+// QUESTION NO 2
+var a=2;
+var b=1;
+var result=--a - --b + ++b + b--;
+//        1    -  0  + 1  +  1 = 3
+document.write( "THE VALUE OF A IS " +  a + "<br>");
+document.write( "THE VALUE OF B IS " + b  + "<br>");
+document.write( "THE RESULT IS " +        result + "<br>" + "<br>");
+
+// QUESTION NO 3
+var name1= prompt("ENTER YOUR NAME");
+alert("HELLO " + name1 );
+document.write("HELLO " + name1 + "<br>"+ "<br>");
+
+// QUESTION NO 4
+var tableNumber=+prompt("ENTER YOUR TABLE NUMBER",5);
+var now=1;
+var result=tableNumber*now
+document.write("<h2> TABLE OF THE NUMBER IS :" + tableNumber + "</h2>");
+document.write(tableNumber  + " * " + now + " = " + result + "<br />" );
+++now
+result=tableNumber*now
+document.write(tableNumber  + " * " + now + " = " + result + "<br />" );
+++now
+result=tableNumber*now
+document.write(tableNumber  + " * " + now + " = " + result + "<br />" );
+++now
+result=tableNumber*now
+document.write(tableNumber  + " * " + now + " = " + result + "<br />" );
+++now
+result=tableNumber*now
+document.write(tableNumber  + " * " + now + " = " + result + "<br />" );
+++now
+result=tableNumber*now
+document.write(tableNumber  + " * " + now + " = " + result + "<br />" );
+++now
+result=tableNumber*now
+document.write(tableNumber  + " * " + now + " = " + result + "<br />" );
+++now
+result=tableNumber*now
+document.write(tableNumber  + " * " + now + " = " + result + "<br />" );
+++now
+result=tableNumber*now
+document.write(tableNumber  + " * " + now + " = " + result + "<br />" );
+++now
+result=tableNumber*now
+document.write(tableNumber  + " * " + now + " = " + result + "<br />" );
+++now
+result=tableNumber*now
+
+// QUESTION NO 5
+var subjectName1=prompt("ENTER THE FIRST SUBJECT NAME");
+var subjectName2=prompt("ENTER THE SECOND SUBJECT NAME");
+var subjectName3=prompt("ENTER THE THIRD SUBJECT NAME");
+var totalMarks=300;
+var marksOF1Subject=+prompt("ENTER THE MARKS OF FIRST SUBJECT\NOUT OF 100");
+var marksOF2Subject=+prompt("ENTER THE MARKS OF SECOND SUBJECT\NOUT OF 100");
+var marksOF3Subject=+prompt("ENTER THE MARKS OF THIRD SUBJECT\NOUT OF 100");
+var obtainedmarks2=marksOF1Subject+marksOF2Subject+marksOF3Subject;
+var percentage3=(obtainedmarks2/totalMarks)*100;
+document.write("<H2> SUBJECT TOTAL_MARKS OBTAINED MARKS </H2> " + "<br /> ");
+document.write(subjectName1+ "");
+document.write(  " "   +" 100 " + " ");
+document.write(marksOF1Subject + "<br />");
+document.write(subjectName2+ "");
+document.write(  " "   +" 100 " + " ");
+document.write(marksOF2Subject + "<br />");
+document.write(subjectName3+ "");
+document.write(  " "   +" 100 " + " ");
+document.write(marksOF3Subject + "<br />");
+document.write("<h2> THE MARKS OF A STUDENT IS " + percentage3 +"%" );
 
 
 
