@@ -575,7 +575,292 @@
 // else{
 //     document.write("PLEASE ENTER THE CORRECT INFORMATION")
 // }    
-    
+// document.write("<h2> CHAPTER 12-13 </h2>");
+
+// //             chapter 12-13
+
+// // QUESTION NO 1
+// // SORRY SIR BUT  I DONT UNDERSTAND THE QUESTION OR WHAT ICAN DO SO SKIP THESE QUESTION
+
+// // QUESTION NO 2
+// var integer1=+prompt("PLEASE INPUT FIRST INTEGER");
+// var integer2=+prompt("PLEASE INPUT SECOND INTEGER");
+// if(integer1>integer2){
+//     document.write( "THE GREATEST INTEGER IS " + integer1 + "<br />")
+// }
+// else if(integer2>integer1){
+//     document.write( "THE GREATEST INTEGER IS " + integer2 + "<br />")
+// }
+// else if(integer1===integer2){
+//     document.write("BOTH INTEGER ARE EQUAL " + integer1 + "<br />" )
+// }
+// else{
+//     "PLEASE ENTER THE INTEGER"
+// }
+// // QUESTION NO 3
+// var num_4=+prompt("PLEASE ENTER THE NUMBER")
+// if(num_4>0){
+//     document.write("<h3>YOUR NUMBER IS POSITIVE NUMBER </h3>")
+// }
+// else if(0>num_4){
+//     document.write("<h3>YOUR NUMBER IS NEGATIVE NUMBER </h3>")
+
+// }
+// else if(0===num_4){
+//     document.write("YOU ENTERED THE 0")
+// }
+// else{
+//     alert("PLEASE ENTER THE INTEGER ONLY")
+// }
+// // QUESTION NO 4 
+// var vowel=prompt("PLEASE ENTER ONLY ONE STRING CHARACTER");
+// if((vowel==="a") || (vowel==="e") || (vowel==="i")  || (vowel==="o") || (vowel==="u") ){
+//     document.write("<h2>TRUE </h2>")
+// }
+// else{
+//     document.write("<h2> FALSE </h2>")
+// }
+
+// // QUESTION NO 5
+// var password = prompt("PLEASE CREATE YOUR PASSWORD");
+// var c1password = prompt("PLEASE CONFIRM YOUR PASSWORD");
+// if (password === "") {
+//     alert("PLEASE CREATE YOUR PASSWORD")
+// }
+// else if (password === c1password) {
+//     alert("CORRECT PASSORD")
+// }
+// else if (password != c1password) {
+//     alert("WRONG PASSWORD")
+// }
+// // QUESTION NO 6
+// var greeting;
+// var hour=+prompt("PLEASE ENTER THE HOUR");
+// if(hour<18){
+//     document.write("GOOD MORNING" + "<BR>")
+// }
+// else{
+//     document.write("GOOD night" + "<BR>")
+
+// }
+
+// // QUESTION NO 7
+
+// var time = prompt("Enter your time");
+// if (time >= "oam" && time < "12am") {
+//     console.log("Good Morning")
+// }
+// else if (time >= "12am" && time < "17pm") {
+//     console.log("Good Afternoon")
+// }
+// else if (time >= "17pm" && time < "21pm") {
+//     console.log("Good Evening")
+// }
+// else if (time >= "21pm" && time <= "24am") {
+//     console.log("Good Night")
+// }else{
+//     console.log("plz correct time mentioned")
+// }
+
+                                        // CHAPTER 14-16
+// document.write("<h2> CHAPTER 14-16 </h2>");
+// // QUESTION NO 1
+// var studentName=[];
+// console.log(studentName);
+// // QUESTION NO 2
+// var student_NAME=[];
+// // QUESTION NO 3
+// var stringArray=["ahmer","sohail","kashif","farhan"];
+// console.log(stringArray);
+// // QUESTION NO 4
+// var numberARRAY=[1,2,3,44,5,66,77,334];
+// console.log(numberARRAY);
+// // QUESTION NO 5
+// var booleanNumber=[true,false];
+// console.log(booleanNumber);
+// // QUESTION NO 6
+// var mixedArray=["ahmer",222,"sohail",34,false,];
+// console.log(mixedArray);
+
+// qno#08
+// var education = ["SSC","HSC","BSC","BS","BCOM","MS","M.phil.","phd"];
+// console.log(education[0] + "\n" + education[1] + "\n" + education[2] + "\n" + education[3] + "\n" + education[4] + "\n" + education[5] + "\n" + education[6] + "\n" + education[7]);
+
+// qno#09
+// var movie = [];
+// movie.unshift("Avenger: Age of ultron","spectre","jurrasic world","inside out")
+// console.log("1)" + movie[0] + "\n" + "2)" + movie[1] + "\n" + "2)" + movie[2] + "\n" + "3)" + movie[3]);
+
+// qno#10
+// var car = [];
+// car.push("ford","Lamborghinhi");
+// car.unshift("Audi","volvo");
+// console.log(car[0],car[1],car[2],car[3]);
+
+// qno#11
+// var names = ["Abdul qadeer","Fahad","Basit"];
+// var score = [320,230,480];
+// var total_marks = 500;
+// var percentage = score[0] * 100 / total_marks;
+// var percentage1 = score[1] * 100 / total_marks;
+// var percentage2 = score[2] * 100 / total_marks;
+// console.log("score is " + names[0] + "is " + score[0] + ":" + "percentage: " + percentage + "%." + "\n" + "score is " + names[1] + "is " + score[1] + ":" + "percentage: " + percentage1 + "%." + "\n" + "score is " + names[2] + "is " + score[2] + ":" + "percentage: " + percentage2 + "%." + "\n");
+
+// qno#12
+// var color_name = [];
+// var color = prompt("Enter your color at the beggining of array");
+// color_name.unshift(color);
+// var end_color = prompt("Enter your color at the end of array");
+// color_name.push(end_color);
+// color_name.unshift("yellow","green");
+// color_name.shift();
+// color_name.pop();
+// var midlleColor = prompt("Enter which index whould you want to a color");
+// color_name.splice(1,0,"purple");
+// color_name.splice(0,2);
+// console.log(color_name,color,end_color,midlleColor);
+
+// qno#13
+// var student_score = [123,120,140,500,400,300];
+// console.log(student_score);
+// console.log(student_score[1],student_score[0],student_score[2],student_score[5],student_score[4],student_score[3]);
+
+// qno#14
+// var fruitsName = ["Strawbery","apple","orange","banana"];
+// console.log(fruitsName);
+// console.log(fruitsName[1],fruitsName[3],fruitsName[2],fruitsName[0]);
+
+// qno#15 
+// var cities = ["Karachi","Islamabad","Peshawar","Quetta","Hyderabad"];
+// cities.splice(1,1);
+// cities.slice(1,2);
+// console.log(cities);
+
+// qno#16
+// var cat = ["This","is","my","cat"];
+// console.log(cat);
+// console.log(cat[0],cat[1],cat[2],cat[3]);
+
+// qno#17
+// let devices = ["Keyboard","Mouse","Printer","Moniter"];
+// console.log(devices);
+// console.log(devices[0] + "\n" + devices[1] + "\n" + devices[2] + "\n" + devices[3]);
+
+// qno#18
+// let devices = ["Keyboard","Mouse","Printer","Moniter"];
+// console.log(devices);
+// console.log(devices[3] + "\n" + devices[2] + "\n" + devices[1] + "\n" + devices[0]);
+
+// qno#19
+// var phones = ["Samsung","Vivo","Motorola","Realme","Iphone"];
+// console.log(phones);  
+// console.log(phones[0] + "\n" + phones[1] + "\n" + phones[2] + "\n" + phones[3] + "\n" + phones[4]);
+
+// qno#20
+// var names =[];
+// console.log(names);
+
+// qno#21
+// var num = [0,1,2,3];
+// console.log(num);
+// num.pop();
+// num.unshift(1);
+// console.log(num[0],num[1],num[2],num[3]);
+// console.log(num[3],num[2],num[1],num[0]);
+
+
+// Arrays and Loop
+
+// qno#1
+// var names = [[],[],[]];
+// console.log(names);
+
+// qno#2
+// var num = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+// console.log(num);
+
+// qno#3
+// for(var i = 1; i <= 10; i++){
+//     console.log(i);
+// }
+
+// qno#4
+// var table = +prompt("Enter your table");
+// for(var i = 1; i <= 15; i++){
+//     console.log(table + "x" + i + "=" + table*i);
+// }
+
+// qno#5
+// var fruits = [];
+// fruits.push("orange","strawbery");
+// fruits.unshift("apple","banana");
+// fruits.splice(2,0,"mango")
+// console.log(fruits);
+// for(var i = 0; i < fruits.length; i++){
+//     console.log(fruits[i])
+// }
+
+// qno#6
+// for (var i = 1; i <= 15; i++){
+//     console.log(i);
+// } 
+// for(var j = 10; j >= 1; j--){
+//     console.log(j);
+// }
+// for (var i = 0; i <= 20; i++){
+//     if(i % 2 === 0){
+//         console.log(i);
+//     }
+// } 
+// for(var i = 1; i <= 19; i++){
+//     if(i % 2 !== 0){
+//         console.log(i);
+//     }
+// }
+// var arr = ["2k","4k","6k","8k","10k","12k","14k","18k","20k"];
+// for(var i = 0; i < arr.length; i++){
+//     console.log(arr[i]);
+// }
+
+// qno#7
+// var arry = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput = prompt("Enter your fruit name whould you want");
+// var match = "no";
+// for (var i = 0; i < arry.length; i++) {
+//     if (arry[i] == userInput) {
+//         match = "yes";
+//         console.log(userInput + " is available")
+//     }
+// }
+// if (match === "no"){
+//     console.log("We are soory " + userInput + " is not available");
+// }
+
+
+// qno#8
+// var num = [23,12,455,56,89,90];
+// var largest = num[0,4];
+// for (i = 0; i < num.length; i++){
+//     if (largest <= num[i]){
+//         largest = num[i];
+//     }
+// }
+// console.log(largest);
+
+// qno#9
+// var num = [23,12,455,56,89,90];
+// var largest = num[0,4];
+// for (i = 0; i < num.length; i++){
+//     if (largest >= num[i]){
+//         largest = num[i];
+//     }
+// }
+// console.log(largest);
+
+// qno#10
+// for (var i = 1; i <= 20; i++){
+//     console.log(5*i);
+// }
 
 
 
@@ -609,7 +894,20 @@
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
