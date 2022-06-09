@@ -681,92 +681,211 @@
 // // QUESTION NO 6
 // var mixedArray=["ahmer",222,"sohail",34,false,];
 // console.log(mixedArray);
+// //QUESTION NO 7 
+// var qualification=["SSC","HSC","BCS","BS","BCOM","MS","M.PHILL","PHD"];
+// var count;
+// document.write("<h2>"+ "<ol>"+"<li>"+qualification[0]+"</li>"+"<li>"+qualification[1]+"</li>"
+// +"<li>"+qualification[2]+"</li>"
+// +"<li>"+qualification[3]+"</li>"
+// +"<li>"+qualification[4]+"</li>"
+// +"<li>"+qualification[5]+"</li>"
+// +"<li>"+qualification[6]+"</li>"
+// +"<li>"+qualification[7]+"</li>"+"</ol>"+"</h2>");
+// // question no 8
+// var students_name2=["AHMER","USAMA","TARIQ"];
+// var score_2=[456,478,367];
+// var total_marks2=500;
+// var percentage7=score_2[0]/total_marks2*100;
+// var percentage8=score_2[1]/total_marks2*100;
+// var percentage9=score_2[2]/total_marks2*100;
+// document.write("<h3>"+"SCORE OF "+students_name2[0]+ " IS " + score_2[0]+ ". "+"PERCENTAGE: "+ percentage7+"%"+"</h3>")
+// document.write("<h3>"+"SCORE OF "+students_name2[1]+ " IS " + score_2[1]+ ". "+"PERCENTAGE: "+ percentage8+"%"+"</h3>")
+// document.write("<h3>"+"SCORE OF "+students_name2[2]+ " IS " + score_2[2]+ ". "+"PERCENTAGE: "+ percentage9+"%"+"</h3>");
+// // QUESTION NO 9
+// var color_name3=["RED","GREEN","YELLOW","BLUE"];
+// document.write(color_name3 +"<br />");
+// // QUESTION NO 9(A)
+// var start=prompt("ENTER THE COLOR NAME WHICH YOU WANT TO ADD IN START");
+// color_name3.unshift(start);
+// document.write(color_name3 +"<br />");
+// // QUESTION NO 9(B)
+// var endarray=prompt("ENTER THE COLOR NAME WHICH YOU WANT TO ADD IN END")
+// color_name3.push(endarray);
+// document.write(color_name3 +"<br />");
+// // QUESTION NO 9(C)
+// color_name3.unshift("GREEN","PINK");
+// document.write(color_name3 +"<br />");
+// // QUESTION NO 9(D)
+// color_name3.shift();
+// document.write(color_name3 +"<br />");
+// // QUESTION NO 9(E)
+// color_name3.pop();
+// document.write(color_name3 +"<br />");
+// // QUESTION NO 9(F)
+// var color_name9=prompt("ENTER THE COLOR WHICH YOU WANT TO ADD")
+// var indexno=+prompt("ENTER THE INDEX NO");
+// color_name3.splice(indexno,0,color_name9);
+// document.write(color_name3 +"<br />");
+// console.log(color_name3)
+// // QUESTION NO 9(G)
+// var deletecolorindexno=+prompt("ENTER THE INDEX NO OF COLOR WHICH YOU WANT TO DELETE");
+// var DELETEITEMNO=+prompt("HOW MANY COLOR WANT YOU TO DELETE");
+// color_name3.splice(deletecolorindexno,DELETEITEMNO);
+// document.write(color_name3 +"<br />" +"<br />"+"<br />");
+// // QUESTION NO 10
+// var unOrderedarray=[320,230,480,120];
+// document.write("SCORCES OF STUDENT: " +unOrderedarray +"<br />");
+// unOrderedarray.sort();
+// document.write(" ORDERED SCORCES OF STUDENT: " +unOrderedarray +"<br />");
+// // QUESTION NO 11
+// var cities=["KARACHI","LAHORE","ISLAMABAD","QUETTA","PESHAWAR"];
+// document.write(" CITIES NAME : " +cities +"<br />");
+// var selectedCities=cities.slice(2,4);
+// document.write("  SELECTED CITIES NAME : " +selectedCities +"<br />");
+// // QUESTION NO 12
+// document.write("<H2>"+"  ARRAY : " +"</H2>"+"<br />");
+// var cat=["THIS" ,"IS" ,"MY","CAT"];
+// document.write( cat +"<br />");
+// document.write("<H2>"+"  STRING : " +"</H2>"+"<br />");
+// var catS= cat.join(" ")
+// document.write( catS +"<br />" +"<br />" +"<br />");
+// // QUESTION NO 13
+// var devices=["KEYBOARD","MOUSE","PRINTER","MONITOR"];
+// document.write( devices +"<br />");
+// devices.shift();
+// document.write( devices +"<br />");
+// devices.shift();
+// document.write( devices +"<br />");
+// devices.shift();
+// document.write( devices +"<br />");
+// devices.shift();
+// document.write( devices +"<br />");
+// devices.shift();
+// document.write( devices +"<br />" +"<br />");
+// // QUESTION NO 14
+// var devices=["KEYBOARD","MOUSE","PRINTER","MONITOR"];
+// document.write( devices +"<br />");
+// devices.pop();
+// document.write( devices +"<br />");
+// devices.pop();
+// document.write( devices +"<br />");
+// devices.pop();
+// document.write( devices +"<br />");
+// devices.pop();
+// document.write( devices +"<br />" +"<br />"+"<br />");
+// // QUESTION NO 15
+// var mobileCompanies=["APPLE","SAMSUNG","MOTROLLA","NOKIA","SONY","HAIER"];
+// document.write("<select>"+"<option>"+mobileCompanies[0]+"</option>"+"<option>"+mobileCompanies[1]+"</option>"+"<option>"+mobileCompanies[2]+"</option>"+"<option>"+mobileCompanies[3]+"</option>"+"<option>"+mobileCompanies[4]+"</option>"+"<option>"+mobileCompanies[5]+"</option>"+"</select>")
 
-// qno#08
-// var education = ["SSC","HSC","BSC","BS","BCOM","MS","M.phil.","phd"];
-// console.log(education[0] + "\n" + education[1] + "\n" + education[2] + "\n" + education[3] + "\n" + education[4] + "\n" + education[5] + "\n" + education[6] + "\n" + education[7]);
 
-// qno#09
-// var movie = [];
-// movie.unshift("Avenger: Age of ultron","spectre","jurrasic world","inside out")
-// console.log("1)" + movie[0] + "\n" + "2)" + movie[1] + "\n" + "2)" + movie[2] + "\n" + "3)" + movie[3]);
 
-// qno#10
-// var car = [];
-// car.push("ford","Lamborghinhi");
-// car.unshift("Audi","volvo");
-// console.log(car[0],car[1],car[2],car[3]);
 
-// qno#11
-// var names = ["Abdul qadeer","Fahad","Basit"];
-// var score = [320,230,480];
-// var total_marks = 500;
-// var percentage = score[0] * 100 / total_marks;
-// var percentage1 = score[1] * 100 / total_marks;
-// var percentage2 = score[2] * 100 / total_marks;
-// console.log("score is " + names[0] + "is " + score[0] + ":" + "percentage: " + percentage + "%." + "\n" + "score is " + names[1] + "is " + score[1] + ":" + "percentage: " + percentage1 + "%." + "\n" + "score is " + names[2] + "is " + score[2] + ":" + "percentage: " + percentage2 + "%." + "\n");
 
-// qno#12
-// var color_name = [];
-// var color = prompt("Enter your color at the beggining of array");
-// color_name.unshift(color);
-// var end_color = prompt("Enter your color at the end of array");
-// color_name.push(end_color);
-// color_name.unshift("yellow","green");
-// color_name.shift();
-// color_name.pop();
-// var midlleColor = prompt("Enter which index whould you want to a color");
-// color_name.splice(1,0,"purple");
-// color_name.splice(0,2);
-// console.log(color_name,color,end_color,midlleColor);
 
-// qno#13
-// var student_score = [123,120,140,500,400,300];
-// console.log(student_score);
-// console.log(student_score[1],student_score[0],student_score[2],student_score[5],student_score[4],student_score[3]);
 
-// qno#14
-// var fruitsName = ["Strawbery","apple","orange","banana"];
-// console.log(fruitsName);
-// console.log(fruitsName[1],fruitsName[3],fruitsName[2],fruitsName[0]);
 
-// qno#15 
-// var cities = ["Karachi","Islamabad","Peshawar","Quetta","Hyderabad"];
-// cities.splice(1,1);
-// cities.slice(1,2);
-// console.log(cities);
 
-// qno#16
-// var cat = ["This","is","my","cat"];
-// console.log(cat);
-// console.log(cat[0],cat[1],cat[2],cat[3]);
 
-// qno#17
-// let devices = ["Keyboard","Mouse","Printer","Moniter"];
-// console.log(devices);
-// console.log(devices[0] + "\n" + devices[1] + "\n" + devices[2] + "\n" + devices[3]);
 
-// qno#18
-// let devices = ["Keyboard","Mouse","Printer","Moniter"];
-// console.log(devices);
-// console.log(devices[3] + "\n" + devices[2] + "\n" + devices[1] + "\n" + devices[0]);
 
-// qno#19
-// var phones = ["Samsung","Vivo","Motorola","Realme","Iphone"];
-// console.log(phones);  
-// console.log(phones[0] + "\n" + phones[1] + "\n" + phones[2] + "\n" + phones[3] + "\n" + phones[4]);
 
-// qno#20
-// var names =[];
-// console.log(names);
 
-// qno#21
-// var num = [0,1,2,3];
-// console.log(num);
-// num.pop();
-// num.unshift(1);
-// console.log(num[0],num[1],num[2],num[3]);
-// console.log(num[3],num[2],num[1],num[0]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Arrays and Loop
