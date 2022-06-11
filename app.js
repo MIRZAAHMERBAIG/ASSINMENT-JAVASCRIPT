@@ -776,6 +776,92 @@
 // // QUESTION NO 15
 // var mobileCompanies=["APPLE","SAMSUNG","MOTROLLA","NOKIA","SONY","HAIER"];
 // document.write("<select>"+"<option>"+mobileCompanies[0]+"</option>"+"<option>"+mobileCompanies[1]+"</option>"+"<option>"+mobileCompanies[2]+"</option>"+"<option>"+mobileCompanies[3]+"</option>"+"<option>"+mobileCompanies[4]+"</option>"+"<option>"+mobileCompanies[5]+"</option>"+"</select>")
+<<<<<<< HEAD
+ 
+//                             CHAPTER 17-20
+// document.write("<h2> CHAPTER 17-20 </h2>");
+// // QUESTION NO 1
+// var emptyArray=[2,3,4,4,5,7,];
+// console.log(emptyArray)
+// // QUESTION NO 2
+// var multi=[[0,1,2,3,6,8,7],[1,0,1,2],[2,1,0,1]];
+// for(var i=0;i<multi.length;i++){
+//     for(var j=0;j<multi[i].length;j++){
+//         document.write(multi[i][j])
+//     }
+//     document.write("<br />" )
+// }
+// // QUESTION NO 3
+// for(var i=1;i<=10;i++){
+//     document.write(i + "<br />" )
+// }
+// document.write( "<br />"+"<br />"  )
+// // QUESTION NO 4
+// var tablenumber3=+prompt("PLEASE ENTER TABLE NUMBER");
+// var lengthOfTableNumber=+prompt("PLEASE ENTER THE LENGTH OF TABLE NUMBER");
+// var result99;
+// document.write("<h2>" +"TABLE NUMBER IS: " +tablenumber3+"</h2>")
+// document.write("<h2>" +"LENGTH OF TABLE IS: " +lengthOfTableNumber+"</h2>")
+
+// for(var i =1;i<=lengthOfTableNumber;i++){
+//     document.write(tablenumber3+" * "+ i +" ="+ tablenumber3*i + "<br />")
+// }
+// document.write("<br />" )
+// // QUESTION NO 5
+// var fruit7=["APPLE","BANANA","MANGO","ORANGE","STRAWBERRY"];
+// for(var i=0;i<fruit7.length;i++){
+//     document.write(fruit7[i] +"<br />")
+// }
+// document.write("<br />" )
+// document.write("<br />" )
+// for(var i=0;i<fruit7.length;i++){
+//     document.write("ELEMENT AT INDEX "+ i + " IS " + fruit7[i] +"<br />" )
+// };
+// // QUESTION NO 6
+// document.write("<h2>"+"COUNTING :"+"</h2>")
+// for(i=1;i<=15;i++){
+//     document.write(i+",")
+// }
+// document.write("<h2>"+" REVERSE COUNTING :"+"</h2>")
+// for(i=10;i>=1;i--){
+//     document.write(i+",")
+// }
+// document.write("<h2>"+" EVEN :"+"</h2>")
+// for(i=0;i<=20;i++){
+//     if(i%2===0){    document.write(i+",")
+// }
+// }
+// document.write("<h2>"+" ODD :"+"</h2>")
+// for(i=0;i<=20;i++){
+//     if(i%2!=0){    document.write(i+",")
+// }
+// }
+// document.write("<h2>"+" SERIES :"+"</h2>")
+// for(i=1;i<=20;i++){
+//     if(i%2===0){    document.write(i+"k"+",")
+// }
+// }
+// // QUESTION NO 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+>>>>>>> parent of 4d74667 (chapter 17-20)
 
 
 
