@@ -662,7 +662,7 @@
 //     console.log("plz correct time mentioned")
 // }
 
-                                        // CHAPTER 14-16
+// CHAPTER 14-16
 // document.write("<h2> CHAPTER 14-16 </h2>");
 // // QUESTION NO 1
 // var studentName=[];
@@ -776,8 +776,8 @@
 // // QUESTION NO 15
 // var mobileCompanies=["APPLE","SAMSUNG","MOTROLLA","NOKIA","SONY","HAIER"];
 // document.write("<select>"+"<option>"+mobileCompanies[0]+"</option>"+"<option>"+mobileCompanies[1]+"</option>"+"<option>"+mobileCompanies[2]+"</option>"+"<option>"+mobileCompanies[3]+"</option>"+"<option>"+mobileCompanies[4]+"</option>"+"<option>"+mobileCompanies[5]+"</option>"+"</select>")
-<<<<<<< HEAD
- 
+
+
 //                             CHAPTER 17-20
 // document.write("<h2> CHAPTER 17-20 </h2>");
 // // QUESTION NO 1
@@ -841,231 +841,123 @@
 //     if(i%2===0){    document.write(i+"k"+",")
 // }
 // }
-// // QUESTION NO 7
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> parent of 4d74667 (chapter 17-20)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Arrays and Loop
-
-// qno#1
-// var names = [[],[],[]];
-// console.log(names);
-
-// qno#2
-// var num = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
-// console.log(num);
-
-// qno#3
-// for(var i = 1; i <= 10; i++){
-//     console.log(i);
-// }
-
-// qno#4
-// var table = +prompt("Enter your table");
-// for(var i = 1; i <= 15; i++){
-//     console.log(table + "x" + i + "=" + table*i);
-// }
-
-// qno#5
-// var fruits = [];
-// fruits.push("orange","strawbery");
-// fruits.unshift("apple","banana");
-// fruits.splice(2,0,"mango")
-// console.log(fruits);
-// for(var i = 0; i < fruits.length; i++){
-//     console.log(fruits[i])
-// }
-
-// qno#6
-// for (var i = 1; i <= 15; i++){
-//     console.log(i);
-// } 
-// for(var j = 10; j >= 1; j--){
-//     console.log(j);
-// }
-// for (var i = 0; i <= 20; i++){
-//     if(i % 2 === 0){
-//         console.log(i);
-//     }
-// } 
-// for(var i = 1; i <= 19; i++){
-//     if(i % 2 !== 0){
-//         console.log(i);
+// // // QUESTION NO 7
+// var orderitem = prompt("ENTER YOUR ORDER");
+// var bakery = ["cake", "applepie", "cookie", "chips", "patties"];
+// var match = false;
+// for (var i = 0; i < bakery.length; i++) {
+//     if (orderitem === bakery[i]) {
+//         match = true;
+//         document.write("<h2>" + orderitem + " IS AVALIBLE AT INDEX " + i + " IN OUR BAKERY " + "</h2>");
 //     }
 // }
-// var arr = ["2k","4k","6k","8k","10k","12k","14k","18k","20k"];
-// for(var i = 0; i < arr.length; i++){
-//     console.log(arr[i]);
+// if (match == false) {
+//     document.write("<h2>" + orderitem + " IS NOT AVALIBLE IN OUR BAKERY " + "</h2>");
 // }
+// // QUESTION NO 8
+// var maxnumarray = [24, 53, 78, 88, 91];
+// var maxnum99 = 0;
+// for (var i = 0; i < maxnumarray.length; i++) {
+//     if (maxnumarray[i] > maxnum99) {
+//         maxnum99 = maxnumarray[i]
+//     }
 
-// qno#7
-// var arry = ["cake", "apple pie", "cookie", "chips", "patties"];
-// var userInput = prompt("Enter your fruit name whould you want");
-// var match = "no";
-// for (var i = 0; i < arry.length; i++) {
-//     if (arry[i] == userInput) {
-//         match = "yes";
-//         console.log(userInput + " is available")
+// }
+// document.write(maxnum99)
+// document.write("<br />")
+
+// // QUESTION NO 9
+// var array76 = [24, 53, 78, 88, 91];
+// var min76=+Infinity
+// for(var i = 0;i<array76.length;i++){
+//     if(array76[i] < min76){
+//         min76=array76[i]
 //     }
 // }
-// if (match === "no"){
-//     console.log("We are soory " + userInput + " is not available");
+// document.write(min76)
+// document.write("<br />")
+// // QUESTION NO 10
+// for(var i=1;i<=20;i++){
+//     document.write(i*5 + ",")
 // }
 
 
-// qno#8
-// var num = [23,12,455,56,89,90];
-// var largest = num[0,4];
-// for (i = 0; i < num.length; i++){
-//     if (largest <= num[i]){
-//         largest = num[i];
-//     }
-// }
-// console.log(largest);
 
-// qno#9
-// var num = [23,12,455,56,89,90];
-// var largest = num[0,4];
-// for (i = 0; i < num.length; i++){
-//     if (largest >= num[i]){
-//         largest = num[i];
-//     }
-// }
-// console.log(largest);
 
-// qno#10
-// for (var i = 1; i <= 20; i++){
-//     console.log(5*i);
-// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
