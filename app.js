@@ -849,11 +849,11 @@
 //     if (orderitem === bakery[i]) {
 //         match = true;
 //         document.write("<h2>" + orderitem + " IS AVALIBLE AT INDEX " + i + " IN OUR BAKERY " + "</h2>");
-//     }
+//     }   
 // }
 // if (match == false) {
 //     document.write("<h2>" + orderitem + " IS NOT AVALIBLE IN OUR BAKERY " + "</h2>");
-// }
+// }  
 // // QUESTION NO 8
 // var maxnumarray = [24, 53, 78, 88, 91];
 // var maxnum99 = 0;
@@ -880,6 +880,388 @@
 // for(var i=1;i<=20;i++){
 //     document.write(i*5 + ",")
 // }
+//                         ASSINMENT 6
+//                         FOOD SHOP
+// var foodorder=prompt("ENTER YOUR ORDER")
+// foodorder=foodorder.toUpperCase();
+// var orderlist=["BURGER","BIRYANI","KABAB","TIKKA","KARAHI"];
+// var extraitem=["COLD DRINK","RAITA","SALAD","JUICE"];
+// flag4=false;
+// for(var i=0; i<orderlist.length;i++){
+//     if(foodorder==orderlist[i]){
+//         flag4=true;
+//         document.write("<h2>"+foodorder + " IS AVALIBLE " +"</h2>")
+//         document.write("<h4>"+"YOU WANT TO ORDER SOME EXTRA ITEM" + "<br /> "+ "<br /> "+ extraitem +"</h4>")
+
+
+//     }
+//     else if(foodorder==extraitem[i]){
+//         flag4=true;
+//         document.write("<h2>"+foodorder + " IS AVALIBLE " +"</h2>")
+//         document.write("<h4>"+"YOU WANT TO ORDER SOME EXTRA ITEM" + "<br /> " + "<br /> "+ orderlist +"</h4>")
+//     }
+// }
+ 
+// if(flag4==false)(
+//     document.write("<h2>"+foodorder + " IS  NOT AVALIBLE " +"</h2>")
+
+// )
+                            //  ASSINMENT 7
+// document.write("<h2> CHAPTER 21-25 </h2>");
+// // QUESTION NO 1
+// var firstname=prompt("ENTER YOUR FIRST NAME");
+// var lastname=prompt("ENTER YOUR LAST NAME");
+// var fullname = firstname + " "+ lastname;
+// alert(" HELLO!\n " +  "  " +  fullname );
+// // QUESTION NO 2
+// var str=prompt("ENTER YOUR FAVOURITE MOBILE PHONE");
+// count=0;
+// for(var i=0;i<str.length;i++){
+//     ++count 
+// }
+// alert(count);
+// // QUUESTION NO 3
+// var pa="pakistani";
+// length=pa.indexOf("n");
+// document.write("STRING : " + pa + "<BR />");
+// document.write("INDEX OF 'n' IS : " + length + "<BR />");
+// // QUESTION NO 4
+// var hello = "HELLO WORLD";
+// length2=hello.lastIndexOf("L");
+// document.write("STRING : " + hello + "<BR />");
+// document.write("INDEX OF 'L' IS : " + length2 + "<BR />");
+// // QUESTION NO 5
+// var pa="pakistani";
+// document.write("STRING : " + pa + "<BR />");
+// document.write("CHARACTER AT INDEX 3 IS "+pa.slice(pa.indexOf("i"),4) + "<BR />");
+// // QUESTION NO 6
+// var fir="HELLO! "
+// document.write(fir.concat(" MIRZA"," AHMER"," BAIG")+ "<BR />");
+// // QUESTION NO 7
+// var city7="HYDERABAD";
+// document.write("CITY : " + city7 + "<BR />");
+// city7=city7.replace("HYDER","ISLAM");
+// document.write("AFTER REPLACEMENT : " + city7 + "<BR />");
+// // QUESTIONN NO 8
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// document.write("BEFORE REPLACEMENT : " + message + "<BR />");
+// message=message.replace(/and/g,"&");
+// document.write("BEFORE REPLACEMENT : " + message + "<BR />");
+// // QUESTION NO 9
+// var stringn="472"
+// document.write("VALUE " + stringn + "<BR />")
+// document.write("TYPE : "+typeof(stringn) + "<BR />")
+// document.write("VALUE " + stringn + "<BR />")
+// stringn=parseInt(stringn);
+// document.write("TYPE : "+typeof(stringn) + "<BR />")
+// // QUESTION NO 10
+// var inputs=prompt("ENTER YOUR WORD")
+// document.write("USER INPUT : " + inputs + "<br />")
+// inputs=inputs.toUpperCase()
+// document.write("UPPER CASE : " + inputs + "<br />")
+// // QUESTION NO 11
+// var inputL=prompt("ENTER YOUR WORD")
+// document.write("USER INPUT : " + inputL + "<br />")
+// var input2=inputL[0].toUpperCase();
+// var lowerinput=inputL.slice(1);
+//  var finalinput =input2.concat(lowerinput);
+//  document.write("TITLE CASE : " + finalinput + "<br />")
+// // QUESTION NO 12
+// var num=35.36
+// document.write("NUMBER : " + num + "<br />")
+// num=num.toString();
+//  var num55 =num.replace(".","");
+// document.write("NUMBER : " + num55 + "<br />")
+// // QUESTION NO 13
+// var userpass=prompt("ENTER A PASSWORD");
+// var splitpass=userpass.split("");
+// var flag=false;
+// for(var i =0;i<splitpass.length;i++){
+//     if((splitpass[i] === "!") || (splitpass[i] === ",") || (splitpass[i] === ".") || (splitpass[i] === "@")){
+//         flag=true;
+//         alert("PLEASE ENTER A VALID PASSWORD")
+//     }
+// }
+// if (flag === false) {
+//     alert("Valid password")
+// }
+// //  QUESTION NO 14
+// var orderitem = prompt("ENTER YOUR ORDER");
+// orderitem=orderitem.toLowerCase();
+// var bakery = ["cake", "applepie", "cookie", "chips", "patties"];
+// var match = false;
+// for (var i = 0; i < bakery.length; i++) {
+//     if (orderitem === bakery[i]) {
+//         match = true;
+//         document.write("<h2>" + orderitem + " IS AVALIBLE AT INDEX " + i + " IN OUR BAKERY " + "</h2>");
+//     }   
+// }
+// if (match == false) {
+//     document.write("<h2>" + orderitem + " IS NOT AVALIBLE IN OUR BAKERY " + "</h2>");
+// }  
+//  QUESTION NO 15 
+// mujhe nai ata ha
+// qno#16
+// var university = "University of karachi";
+// for(var i = 0; i < university.length; i++){
+//     document.write(university[i] + "<br>");
+// }
+
+// qno#17
+// var userInput = "Pakistan";
+// document.write("User input: " + userInput + "<br>" + "Last character of input: " + userInput.charAt(7));
+
+// qno#18
+// var str = "The quick brown fox jumps over the lazy dog";
+// var lowest = str.toLowerCase();
+// var split = lowest.split(" ");
+// var string = "the";
+// var count = 0;
+// for (var i = 0; i < split.length; i++){
+//     if (string === split[i]) {
+//         count++;
+//     }
+// }
+// document.write("Text: " + str + "<br>" + " There are " + count + " occurrence(s) of the word 'the'");
+
+
+
+// chapter-26 to 30
+
+// qno#01
+// var number = 3.45617;
+// var round = Math.round(number);
+// var floor = Math.floor(number);
+// var ceil = Math.ceil(number);
+// document.write("number: " + number + "<br>" + "round of value: " + round + "<br>" + "floor value: " + floor + "<br>" + "ceil value: " + ceil);
+
+// qno#02
+// var number = -2.673;
+// var round = Math.round(number);
+// var floor = Math.floor(number);
+// var ceil = Math.ceil(number);
+// document.write("number: " + number + "<br>" + "round of value: " + round + "<br>" + "floor value: " + floor + "<br>" + "ceil value: " + ceil);
+
+// qno#03
+// var num = -4;
+// var abs = Math.abs(num)
+// document.write("The absolute value of " + num + " is " + abs);
+
+// qno#04
+// var random = Math.ceil(Math.random() * 6);
+// document.write("random dice value: " + random);
+
+// qno#05
+// var head = Math.ceil(Math.random() * 2);
+// if (head === 1){
+//     document.write(head + "<br>" + " random coin value: Heads")
+// }
+// else if (head === 2){
+//     document.write(head + "<br>" + " random coin value: Tails")
+// }
+
+// qno#06
+// var random = Math.ceil(Math.random() * 100);
+// document.write("random number between 1 and 100: " + random);
+
+// qno#07
+// var userInput = prompt("Enter your weight");
+// var rando = Math.random() * userInput;
+// var fixed = rando.toFixed(1);
+// document.write("The weight of user is " + fixed + " Kilograms");
+
+// qno#08
+// var rando = Math.ceil(Math.random() * 10); 
+// var userInput = +prompt("Enter a number between 1 and 10");
+// if (userInput === rando){
+//     alert("Congratulation the number Matched");
+// }
+// else {
+//     alert("Try again");
+// }
+
+
+// chapter 31 to 34
+
+// qno#01
+// var now = new Date();
+// document.write(now);
+
+// qno#02
+// var array = ["January","Feburuary","March","April","May","June","July","August","September","October","November","December"];
+// var now = new Date();
+// var date = now.getMonth();
+// document.write("Current month: " + array[date]);
+
+// qno#03
+// var arr = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+// var now = new Date();
+// var day = now.getDay();
+// document.write("Today is: " + arr[day]);
+
+// qno#04
+// var arr = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+// var now = new Date();
+// var day = now.getDay();
+// if(arr[day] === "Saturday"){
+//     document.write("It's Fun Day");
+// }
+// else if(arr[day] === "Sunday"){
+//     document.write("It's Fun Day");
+// }
+// else if(arr[day] === "Monday"){
+//     document.write("Today is: " + arr[day]);
+// }
+// else if(arr[day] === "Tuesday"){
+//     document.write("Today is: " + arr[day]);
+// }
+// else if(arr[day] === "Wednesday"){
+//     document.write("Today is: " + arr[day]);
+// } 
+// else if(arr[day] === "Thursday"){
+//     document.write("Today is: " + arr[day]);
+// }
+// else if(arr[day] === "Friday"){
+//     document.write("Today is: " + arr[day]);
+// }else{
+//     document.write("Nothing");
+// }
+
+                            // OR
+// var now = new Date().toString();
+// var day = now.slice(0,3);
+// day = "Saturday,Sunday";
+// if(day === "Saturday,Sunday"){
+//     document.write("It's Fun Day");
+// }
+// else if(day === "Monday"){
+//     document.write("Today is: " + day);
+// }
+// else if(day === "Tuesday"){
+//     document.write("Today is: " + day);
+// }
+// else if(day === "Wednesday"){
+//     document.write("Today is: " + day);
+// } 
+// else if(day === "Thursday"){
+//     document.write("Today is: " + day);
+// }
+// else if(day === "Friday"){
+//     document.write("Today is: " + day);
+// }else{
+//     document.write("Nothing");
+// }
+
+// qno#05
+// var now = new Date();
+// var date = now.getDate();
+// if (date >= 1 && date <= 15){
+//     document.write("First Fifteen days of Month");
+// }
+// else if (date > 15 && date <= 31){
+//     document.write("Last days of the month");
+// }
+
+// qno#06
+// var now = new Date();
+// var mili = now.getTime();
+// var minute = mili / (1000 * 60 * 60);
+// document.write("Current Date: " + now + "<br>" + "Elapsed millisecond since January 1, 1970: " + mili + "<br>" + "Elapsed minutes since January 1, 1970: " + minute);
+
+// qno#07
+// var now = new Date();
+// var hour = now.toLocaleTimeString().toString();
+// var extract = hour.slice(7);
+// document.write("It's " + extract);
+
+// qno#08
+// var now = new Date("Dec 31 2020");
+// document.write("Lather date: " + now);
+
+// qno#09
+// var now = new Date().getTime();
+// var ramdan = new Date("Mar 22 2023").getTime();
+// var diff = ramdan - now;
+// var floor = diff / (1000 * 60 * 60 * 24);
+// var round = Math.round(floor);
+// document.write(round + " days have passsed since Ist Ramdan, 2023");
+
+// qno#10
+// var now = new Date();
+// var pass = new Date("Jan 1 2022");
+// var mili = now.getTime();
+// var millisec = pass.getTime();
+// var diff = mili - millisec;
+// var floor = Math.round(diff / (1000));
+// document.write("On reference date: " + now + "<br>" + floor + " seconds had passed since begining of 2022");
+
+// qno#11
+// var now = new Date("Jan 01, 2015 23:08:16");
+// var date = new Date("Jan 01, 2015 23:08:16");
+// var beforeHr = new Date("Jan 01, 2015 22:08:16").getTime();
+// date.setTime(beforeHr);
+// document.write("current date: " + now + "<br>" + "1 hour ago, it was " + date);  
+
+// qno#12
+// var now = new Date("Jan 01, 2015 23:08:16");
+// var date = new Date("Jan 01, 2015 23:08:16");
+// var beforeHr = new Date("Jan 01, 1915 23:08:16").getTime();
+// date.setTime(beforeHr);
+// document.write("current date: " + now + "<br>" + "100 year back, it was " + date);  
+
+// qno#13
+// var user = new Date(prompt("Enter your birth year, Jan 1 2015").toLowerCase());
+// var time = user.getTime();
+// var now = new Date().getTime();
+// var diff = now - time;
+// var round = Math.round(diff / (1000 * 60 * 60 * 24 * 365));
+// document.write("Your age is " + round + "<br>" + "Your birth year is " + user.getFullYear());
+
+// qno#14
+// var user = prompt("Enter your name");
+// var month = prompt("Enter your month");
+// var unit = +prompt("Number of units");
+// var charge = +prompt("Charge per unit");
+// var late = 350;
+// var net = unit * charge;
+// var gross = net + late;
+// document.write("<h1> K-Electric Bill </h1>");
+// document.write("Customer Name: " + user + "<br>" + "Month: " + month + "<br> Number of units: " + unit + "<br> Charges per units: " + charge + "<br> <br>");
+// document.write("Net Amount Payable (Within Due Date): " + net + "<br> Late payament surcharge: " + late + "<br>");
+// document.write("Gross Amount Payable (after Due Date): " + gross);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
