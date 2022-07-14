@@ -999,394 +999,427 @@
 // if (match == false) {
 //     document.write("<h2>" + orderitem + " IS NOT AVALIBLE IN OUR BAKERY " + "</h2>");
 // }  
-//  QUESTION NO 15 
-// mujhe nai ata ha
-// qno#16
-// var university = "University of karachi";
-// for(var i = 0; i < university.length; i++){
-//     document.write(university[i] + "<br>");
+// //  QUESTION NO 15 
+// // sorry nai arahaha ha
+// // QUESTION NO  16
+// var university ="UNIVERSITY OF KARACHI"
+// var uc=university.split("")
+// for(var i=0;i<uc.length;i++){
+//     document.write(uc[i] + "<br />")
 // }
-
-// qno#17
-// var userInput = "Pakistan";
-// document.write("User input: " + userInput + "<br>" + "Last character of input: " + userInput.charAt(7));
-
-// qno#18
-// var str = "The quick brown fox jumps over the lazy dog";
-// var lowest = str.toLowerCase();
-// var split = lowest.split(" ");
-// var string = "the";
-// var count = 0;
-// for (var i = 0; i < split.length; i++){
-//     if (string === split[i]) {
-//         count++;
+// // QUESTION NO 17
+// var userinput2=prompt("ENTER YOUR WORD");
+// document.write("<br />" + "USER INPUT : "+ userinput2 );
+// var userinpurarray=userinput2.split("");
+// resultyy=userinpurarray[userinpurarray.length-1]
+// document.write("<br />" + "LAST CHARACTER OF INPUT : "+ resultyy);
+// // QUESTION NO 18
+// var demytext="The quick brown fox jumps over the lazy dog."
+// demytext=demytext.toLowerCase();
+// var demyarray=demytext.split(" ")
+// var count=0;
+// for(var i =0; i<demyarray.length; i++){
+//     if(demyarray[i]==="the"){
+//         count++
 //     }
 // }
-// document.write("Text: " + str + "<br>" + " There are " + count + " occurrence(s) of the word 'the'");
-
-
-
-// chapter-26 to 30
-
-// qno#01
-// var number = 3.45617;
-// var round = Math.round(number);
-// var floor = Math.floor(number);
-// var ceil = Math.ceil(number);
-// document.write("number: " + number + "<br>" + "round of value: " + round + "<br>" + "floor value: " + floor + "<br>" + "ceil value: " + ceil);
-
-// qno#02
-// var number = -2.673;
-// var round = Math.round(number);
-// var floor = Math.floor(number);
-// var ceil = Math.ceil(number);
-// document.write("number: " + number + "<br>" + "round of value: " + round + "<br>" + "floor value: " + floor + "<br>" + "ceil value: " + ceil);
-
-// qno#03
-// var num = -4;
-// var abs = Math.abs(num)
-// document.write("The absolute value of " + num + " is " + abs);
-
-// qno#04
-// var random = Math.ceil(Math.random() * 6);
-// document.write("random dice value: " + random);
-
-// qno#05
-// var head = Math.ceil(Math.random() * 2);
-// if (head === 1){
-//     document.write(head + "<br>" + " random coin value: Heads")
+// document.write("<br />" + "TEXT : "+ demytext);
+// document.write("<br />" + "THE WORD 'THE' OCCURENCE IN TEXT IS : "+ count);
+// document.write("<h2> CHAPTER 26-30 </h2>");
+// // QUESTION NO 1
+// var usernumber=+prompt("ENTER A POSITIVE INTEGER")
+// if(usernumber<0){
+//     alert("PLEASE ENTER A POSITIVE INTEGER")
 // }
-// else if (head === 2){
-//     document.write(head + "<br>" + " random coin value: Tails")
+// document.write("NUMBER : " + usernumber+"<br />")
+// document.write("ROUND OFF VALUE : " + Math.round(usernumber)+"<br />")
+// document.write("FLOOR VALUE : " + Math.floor(usernumber)+"<br />")
+// document.write("CEIL VALUE : " + Math.ceil(usernumber)+"<br />")
+// // QUESTION  NO 2
+// var usernumber99=+prompt("PLEASE ENTER A NEGATIVE FLOATING  VALUE")
+// if(usernumber99>0){
+//     alert("PLEASE ENTER A NEGATIVE FLOATING  VALUE")
 // }
-
-// qno#06
-// var random = Math.ceil(Math.random() * 100);
-// document.write("random number between 1 and 100: " + random);
-
-// qno#07
-// var userInput = prompt("Enter your weight");
-// var rando = Math.random() * userInput;
-// var fixed = rando.toFixed(1);
-// document.write("The weight of user is " + fixed + " Kilograms");
-
-// qno#08
-// var rando = Math.ceil(Math.random() * 10); 
-// var userInput = +prompt("Enter a number between 1 and 10");
-// if (userInput === rando){
-//     alert("Congratulation the number Matched");
+// document.write("<br />"+"NUMBER : " + usernumber99+"<br />")
+// document.write("ROUND OFF VALUE : " + Math.round(usernumber99)+"<br />")
+// document.write("FLOOR VALUE : " + Math.floor(usernumber99)+"<br />")
+// document.write("CEIL VALUE : " + Math.ceil(usernumber99)+"<br />")
+// // QUESTION NO 3
+// var number33=+prompt("PLEASE ENTER A NUMBER")
+// var absolutenumber;
+// if(number33<0){
+//     absolutenumber=number33 * -1;
 // }
-// else {
-//     alert("Try again");
+// else if(number33>0){
+//     absolutenumber=number33
 // }
+// document.write("<br />"+"NUMBER : " + number33)
+// document.write("<br />"+"ABSOLUTE NUMBER : " + absolutenumber)
+// // QUESTION NO 4
+// var aBC= Math.floor(Math.random()* 6)+1;
+// document.write("<H2>"+ "RANDOM DICE VALUE :" +aBC + "<H2 />")
+// QUESTION NO 5
+// var tossnum=Math.floor(Math.random()*2)+1;
+// console.log(tossnum)
+// if(tossnum===1){
+//     document.write("<h3>" +tossnum    +"</h3>")
+//     document.write("<h3>" +"RANDOM COIN VALUE : TAILS "  +"</h3>")
 
 
-// chapter 31 to 34
-
-// qno#01
-// var now = new Date();
-// document.write(now);
-
-// qno#02
-// var array = ["January","Feburuary","March","April","May","June","July","August","September","October","November","December"];
-// var now = new Date();
-// var date = now.getMonth();
-// document.write("Current month: " + array[date]);
-
-// qno#03
-// var arr = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-// var now = new Date();
-// var day = now.getDay();
-// document.write("Today is: " + arr[day]);
-
-// qno#04
-// var arr = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-// var now = new Date();
-// var day = now.getDay();
-// if(arr[day] === "Saturday"){
-//     document.write("It's Fun Day");
 // }
-// else if(arr[day] === "Sunday"){
-//     document.write("It's Fun Day");
+// else if(tossnum===2){
+//     document.write("<h3>" +tossnum    +"</h3>")
+//     document.write("<h3>" +"RANDOM COIN VALUE : HEAD "  +"</h3>")
 // }
-// else if(arr[day] === "Monday"){
-//     document.write("Today is: " + arr[day]);
+// // QUESTION NO 6
+// var gnumber=Math.floor(Math.random()*100)+1;
+//     document.write("<h3>" +"RANDOM NUMBER BETWEEN 1 AND 100: "+ gnumber  +"</h3>"+)
+// QUESTION NO 7
+// var weight=prompt("ENTER YOUR WEIGHT")
+// var b,c;
+
+// if(weight.indexOf(".")){
+//     b=parseFloat(weight)
+//     document.write( "THE WEIGHT OF USER IS : " + b + "kg" )
+
 // }
-// else if(arr[day] === "Tuesday"){
-//     document.write("Today is: " + arr[day]);
+// else{
+//     c=parseInt(weight)
+//     document.write("THE WEIGHT OF USER IS "+ c + "kg")
+
 // }
-// else if(arr[day] === "Wednesday"){
-//     document.write("Today is: " + arr[day]);
-// } 
-// else if(arr[day] === "Thursday"){
-//     document.write("Today is: " + arr[day]);
+// // QUESTION NO 8
+// var stn=Math.floor(Math.random()*10)+1;
+// console.log(stn)
+// var asknum=+prompt("chose a number")
+// if(stn===asknum){
+//     document.write("congratulation")
 // }
-// else if(arr[day] === "Friday"){
-//     document.write("Today is: " + arr[day]);
-// }else{
-//     document.write("Nothing");
+// else{
+//     document.write("sorry")
 // }
-
-                            // OR
-// var now = new Date().toString();
-// var day = now.slice(0,3);
-// day = "Saturday,Sunday";
-// if(day === "Saturday,Sunday"){
-//     document.write("It's Fun Day");
+// document.write("<h2> CHAPTER 31-34 </h2>");
+// // QUESTION NO 1
+// var currentdt=new Date();
+// document.write("<h2>"+ currentdt +"</h2>");
+// // QUESTION NO 2
+// var month=['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+// var currentmonth=currentdt.getMonth()
+// alert("CURRENT MONTH: "+month[currentmonth])
+// // QUESTION NO 3 && 4
+// var dayNames = ["Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Sat"];
+// var currentDay=currentdt.getDay();
+// document.write("<h2>"+ "TODAY IS :"+ dayNames[currentDay]+"</h2>");
+// if(dayNames[currentDay]==="sat"   || dayNames[currentDay]==="sun"){
+//     document.write("TODAY IS FUN DAY")
 // }
-// else if(day === "Monday"){
-//     document.write("Today is: " + day);
+// // QUESTION NO 5
+// var dateAjKi=currentdt.getDate()
+// if(dateAjKi<=15){
+//     document.write("<h2>"+ "FIRST FIFTEEN DAYS OF MONTH"+"</h2>");
 // }
-// else if(day === "Tuesday"){
-//     document.write("Today is: " + day);
+// else{
+//     document.write("<h2>"+ "LAST FIFTEEN DAYS OF MONTH"+"</h2>");
 // }
-// else if(day === "Wednesday"){
-//     document.write("Today is: " + day);
-// } 
-// else if(day === "Thursday"){
-//     document.write("Today is: " + day);
+// // QUESTION NO 6
+// document.write("<h2>"+ currentdt +"</h2>");
+// document.write("<h2>"+"ELAPSED MILLISECONDS SINCE JANUARY 1,1970 : "  + currentdt.getTime() +"</h2>");
+// document.write("<h2>"+"ELAPSED MINIUTES SINCE JANUARY 1,1970 : "  + (currentdt.getTime()/(1000*60*60)) +"</h2>");
+// // QUESTION NO 7
+// var currenthour=currentdt.getHours()
+// if(currenthour<=12){
+//     document.write("<h2>"+"ITS AM"   +"</h2>")
 // }
-// else if(day === "Friday"){
-//     document.write("Today is: " + day);
-// }else{
-//     document.write("Nothing");
+// else{    document.write("<h2>"+"ITS PM"   +"</h2>")
 // }
-
-// qno#05
-// var now = new Date();
-// var date = now.getDate();
-// if (date >= 1 && date <= 15){
-//     document.write("First Fifteen days of Month");
+// // QUESTION NO 8
+// var laterdate=new Date("Dec 31, 2020");
+// document.write("<h2>"+ "LATER DATE :"+laterdate+"</h2>");
+// // QUESTION  NO 9
+// var a=new Date("june 18, 2015")
+// var diff=currentdt-a;
+// var ramazandas=Math.round(diff/(1000*60*60*24))
+// document.write("<h2>"+ ramazandas+" DAY HAVE PASSED SINCE 1ST RAMADAN, 2015"+"</h2>");
+// // QUESTION NO 10
+// var ref=new Date("jan 1, 2015");
+// var diff447=currentdt-ref;
+// var refsec=Math.round(diff447/(1000*60));
+// document.write("<h2>"+ ramazandas+" DAY HAVE PASSED SINCE 1ST RAMADAN, 2015"+"</h2>");
+// document.write("<h2>"+" ON REFERENCE DATE : "+ref+", "+refsec +" SECONDS HAD PASSED SINCE BEGINNING OF 2015" +"</h2>");
+// // QUESTION NO 11
+// document.write("CURRENT DATE AND TIME: "+currentdt +"<br />")
+// var oneha=currentdt.setHours(currenthour-1)
+// document.write("ONE HOUR AGO: "+currentdt +"<br />")
+// // QUESTION NO 12
+// document.write("CURRENT DATE AND TIME: "+currentdt +"<br />")
+// var currentyear=currentdt.getFullYear()
+// var hun100=currentdt.setFullYear(currentyear-100);
+// document.write("ONE 100 YEAR AGO : "+currentdt +"<br />")
+// // QUESTION NO 13
+// var ageuser=+prompt("ENTER YOUR AGE");
+// var diffage=currentyear-ageuser;
+// document.write("USE AGE IS: "+ageuser +"<br />")
+// document.write("YOUR BIRTH YEAR IS : "+diffage +"<br />")
+// // QUESTION NO 14
+// document.write("**************************************************")
+// document.write("<h1>" +"K- ELECTRIC BILL" +"</h1>")
+// document.write("**************************************************")
+// var coustomerName=prompt("ENTER COUSTOMER NAME")
+// coustomerName=coustomerName.toUpperCase();
+// var datebill=new Date();
+// var month=['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+// var monthbill=datebill.getMonth()
+// var noOFunits=+prompt("ENTER NO OF UNITS");
+// var chargerOfunit=+prompt("ENTER CHARGES OF UNITS");
+// var nAiWnD=noOFunits*chargerOfunit;
+// var latepayment=350;
+// var grossAmount=nAiWnD+latepayment;
+// document.write("<br />"+"COUSTOMER NAME :" + coustomerName +"<br />");
+// document.write("MONTH :" + month[monthbill] +"<br />");
+// document.write("NO OF UNITS :" + noOFunits +"<br />");
+// document.write("CHARGE PER  UNITS :" +chargerOfunit  +"<br />");
+// document.write("**************************************************"+"<br />")
+// document.write("NET AMOUNT WITHIN(DUE DATE) :" + nAiWnD +"<br />");
+// document.write("LATE AMOUNT :" +  latepayment+"<br />");
+// document.write("NET AMOUNT WITHIN(AFTER DUE DATE) :" + grossAmount+"<br />");
+// document.write("**************************************************"+"<br />")
+//                        CHAPTER N0 35 -38
+// // QUESTION NO 1
+// document.write("<h2> CHAPTER 35-38 </h2>");
+// function tellDateAndTime(){
+//     var currentDateAndTime= new Date()
+//     document.write(currentDateAndTime)
 // }
-// else if (date > 15 && date <= 31){
-//     document.write("Last days of the month");
+// tellDateAndTime();
+// // QUESTION NO 2
+// function sayGreeting(fname,lname){
+//     alert("WELCOME "+fname +" "+ lname)
 // }
+// sayGreeting("MIRZA","AHMER BAIG")
+// // QUESTION NO 3
+// function addition2Number(){
+// var number1=+prompt("ENTER FIRST NUMBER");
+// var number2=+prompt("ENTER SECOND NUMBER");
+// var sum=number1+number2;
+// return sum;
+// }
+// var t=addition2Number();
+// document.write("<br />" + t);
+// // QUESTION NO 4
+// document.write("<BR />"+"*****************************************")
+// document.write("<h2>"+"CALCULATOR"+"</h2>")
+// document.write("*****************************************")
+// function calculator(num1,num2,numopert){
+//     var resltc;
+//     if(numopert==="+"){
+//         resltc=num1+num2;
+//         document.write("<br />"+num1+numopert+num2+"= "+resltc)
+//         return resltc    
+//     }
+//     else if(numopert==="-"){
+//         resltc=num1-num2;
+//         document.write("<br />"+num1+numopert+num2+"= "+resltc)
+//         return resltc    
+//     }
+//     else if(numopert==="*"){
+//         resltc=num1*num2;
+//         document.write("<br />"+num1+numopert+num2+"= "+resltc)
+//         return resltc    
+//     }
+//     else if(numopert==="/"){
+//         resltc=num1/num2;
+//         document.write("<br />"+num1+numopert+num2+"= "+resltc)
+//         return resltc    
+//     }
+// }
+// // QUESTION NO 5
+// function square(a){
+//      var sq=a*a
+//     document.write("<br />"+sq)
 
-// qno#06
-// var now = new Date();
-// var mili = now.getTime();
-// var minute = mili / (1000 * 60 * 60);
-// document.write("Current Date: " + now + "<br>" + "Elapsed millisecond since January 1, 1970: " + mili + "<br>" + "Elapsed minutes since January 1, 1970: " + minute);
+// }
+// QUESTION NO 6
 
-// qno#07
-// var now = new Date();
-// var hour = now.toLocaleTimeString().toString();
-// var extract = hour.slice(7);
-// document.write("It's " + extract);
+function factorial() {
+    
+    var fact = 1;
+    var factorialNumber = +prompt("Enter a number to find the factorical that number : ")
+    document.write("Factorial Of " + factorialNumber + " ! <br>")
 
-// qno#08
-// var now = new Date("Dec 31 2020");
-// document.write("Lather date: " + now);
+    if (factorialNumber < 0) {
+        document.write("The factorial of the negative number doesnot perform")
+    }
 
-// qno#09
-// var now = new Date().getTime();
-// var ramdan = new Date("Mar 22 2023").getTime();
-// var diff = ramdan - now;
-// var floor = diff / (1000 * 60 * 60 * 24);
-// var round = Math.round(floor);
-// document.write(round + " days have passsed since Ist Ramdan, 2023");
+    else if (factorialNumber === 0) {
 
-// qno#10
-// var now = new Date();
-// var pass = new Date("Jan 1 2022");
-// var mili = now.getTime();
-// var millisec = pass.getTime();
-// var diff = mili - millisec;
-// var floor = Math.round(diff / (1000));
-// document.write("On reference date: " + now + "<br>" + floor + " seconds had passed since begining of 2022");
+        document.write("The factorial of 0 is 1")
+    }
+    else if (factorialNumber >= 1) {
+        for (i = 1; i <= factorialNumber; i++) {
 
-// qno#11
-// var now = new Date("Jan 01, 2015 23:08:16");
-// var date = new Date("Jan 01, 2015 23:08:16");
-// var beforeHr = new Date("Jan 01, 2015 22:08:16").getTime();
-// date.setTime(beforeHr);
-// document.write("current date: " + now + "<br>" + "1 hour ago, it was " + date);  
+            fact *= i;
+            document.write(i + " ")
 
-// qno#12
-// var now = new Date("Jan 01, 2015 23:08:16");
-// var date = new Date("Jan 01, 2015 23:08:16");
-// var beforeHr = new Date("Jan 01, 1915 23:08:16").getTime();
-// date.setTime(beforeHr);
-// document.write("current date: " + now + "<br>" + "100 year back, it was " + date);  
+        }
+        document.write(" =  " + fact)
 
-// qno#13
-// var user = new Date(prompt("Enter your birth year, Jan 1 2015").toLowerCase());
-// var time = user.getTime();
-// var now = new Date().getTime();
-// var diff = now - time;
-// var round = Math.round(diff / (1000 * 60 * 60 * 24 * 365));
-// document.write("Your age is " + round + "<br>" + "Your birth year is " + user.getFullYear());
+    }
 
-// qno#14
-// var user = prompt("Enter your name");
-// var month = prompt("Enter your month");
-// var unit = +prompt("Number of units");
-// var charge = +prompt("Charge per unit");
-// var late = 350;
-// var net = unit * charge;
-// var gross = net + late;
-// document.write("<h1> K-Electric Bill </h1>");
-// document.write("Customer Name: " + user + "<br>" + "Month: " + month + "<br> Number of units: " + unit + "<br> Charges per units: " + charge + "<br> <br>");
-// document.write("Net Amount Payable (Within Due Date): " + net + "<br> Late payament surcharge: " + late + "<br>");
-// document.write("Gross Amount Payable (after Due Date): " + gross);
+}
 
+function counting() {
+    document.write("<h1>Countring</h1> <br>================")
+    var startNumber = +prompt("Enter a start Number : ");
+    var EndNumber = +prompt("Enter a End Number : ");
 
 
+    for (i = startNumber; i <= EndNumber; i++) {
 
+        document.write(i + "<br>")
+    }
 
+}
 
 
+function calculateSquare(square) {
 
+    return square * square;
+}
+function hyp() {
 
 
+}
+function calculateHypotenuse() {
 
+    function calculateSquare(base, prep) {
 
+        var Findbase = base * base;
+        var FindPrep = prep * prep;
+        return FindPrep + Findbase;
+    }
 
+    var base = +prompt("Enter a base :")
+    var prep = +prompt("Enter a prependicular :")
+    var sqauresofBP = calculateSquare(base, prep)
+    document.write("Hypotenous of the triangle is : " + Math.sqrt(sqauresofBP))
 
+    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
+}
 
 
+function area(width, height) {
 
+    var width = +prompt("Enter a width :");
+    var height = +prompt("Enter a height :");
 
+    A = width * height;
 
+    document.write("(Argument as variable) Area of the Rectangle is " + A);
 
+    document.write("<br>")
 
+    var area = 45 * 54;
+    document.write("(Argument as value) Area of the Rectangle is : " + area)
 
+    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
+}
 
 
+function palindrome() {
 
 
+    var text = '';
+    var userInput = prompt("Enter a string");
 
+    for (var i = userInput.length - 1; i >= 0; i--) {
+        text += userInput[i];
+    }
 
+    if (text === userInput) {
+        swal("its palindrome");
+    }
+    else {
+        swal("its not palindrome");
+    }
+}
 
+function titledcase() {
 
+    var userInput = prompt("Enter a word or Letter").toLowerCase();
 
+    document.write("User Input : " + userInput + "<br>")
 
+    document.write("Title case : ")
 
+    var userInput = userInput.split(' ');
+    for (i = 0; i < userInput.length; i++) {
+        userInput[i] = userInput[i].charAt(0).toUpperCase() + userInput[i].slice(1) + " ";
+        document.write(userInput[i])
+    }
+    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 
+}
 
+function letterOccurence(strings, character) {
 
+    var strings = prompt("Enter a string :").toLowerCase();
+    var character = prompt("Enter a character: ")
 
+    var count = 0;
+    for (var i = 0; i < strings.length; i++) {
+        if (strings.charAt(i) == character)
+            count++;
+    }
 
+    document.write("Text : " + strings + "<br>")
+    document.write("There are " + count + " occurrence(s) of the word " + character);
+    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 
+}
 
+function longestWord(str){
 
+var str = prompt("Enter your string : ")
+var splitArrayValue = str.split(' ');
 
+var storeWord = "";
 
+for (var i = 0; i < splitArrayValue.length; i++) {
+    if (splitArrayValue[i].length > storeWord.length) {
+        storeWord = splitArrayValue[i];
+    }
+}
+    document.write("Actual String is : " + str + "<br>")
+    document.write("Longest word in String is : " + storeWord)
+    
+}
 
 
 
 
+function CircumferenceAndArea() {
 
+    function Circumference(r) {
+        var r = parseFloat(prompt("Enter a radius for Circumference of Cricle : "))
+        var coc = 2 * Math.PI * r;
+        document.write("Circumference of circle " + coc + "<br>");
+    }
+    function Area(r) {
+        var r = parseFloat(prompt("Enter a radius for Area of circle : "))
+        var area = Math.PI * r * r;
+        document.write("Area of the circle: " + area);
+    }
 
+    Circumference();
+    Area();
+    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
