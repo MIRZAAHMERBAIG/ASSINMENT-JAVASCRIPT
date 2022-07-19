@@ -1238,188 +1238,177 @@
 //     document.write("<br />"+sq)
 
 // }
-// QUESTION NO 6
+// // QUESTION NO 6
+// function factorial(n){
+//     var fact=1
+//     if(n===0){
+//         document.write("<h2>"+"0!=1"+"</h2>")
 
-function factorial() {
-    
-    var fact = 1;
-    var factorialNumber = +prompt("Enter a number to find the factorical that number : ")
-    document.write("Factorial Of " + factorialNumber + " ! <br>")
+//     }
+//     else if(n<0){
+//         document.write("<h2>"+"SORRY FACTORIAL CANNOT BE FIND OF NEGATIVE NUMBER"+"</h2>")
 
-    if (factorialNumber < 0) {
-        document.write("The factorial of the negative number doesnot perform")
-    }
+//     }
+//     else if(n>0){
+//         for(var i=1;i<=n;i++){
+//             fact=fact*i;
+//         }
+//         document.write("<h2>"+"THE FACTORIAL OF "+ n +":"+fact+"</h2>")
+//     }
+// }
+// // QUESTION NO 7
+// function counting(start,end){
+//     for(var i=start;i<=end;i++){
+//         document.write("<h2>"+i+"</h2>")
+//     }
+// }
+// // QUESTION NO 8
+// WE DONOT LEARN NESTED FUNCTION
+// // QUESTION NO 9
+// var length=55
+// var breadth=77
+// function rectangle(l,b){
+//     var area=l*b;
+//     document.write("<h2>"+area+"</h2>")
+// }
+// rectangle(length,breadth)
+// // QUESTION NO 10
+// function palindrone(check){
+//     for(var i=0;i<check.length;i++){
+//         var straight=check[i]    
+//     }
+//     for(var i=check.length-1;i>=0;i--){
+//         var opposiite=check[i]
+//     }
+//     if(straight===opposiite){
+//         document.write("YOUR WORD IS PALINDRONE")
+//     }
+//     else{
+//         document.write("SORRY YOUR WORD IS NOT PALINDRONE")
 
-    else if (factorialNumber === 0) {
+//     }
+// }
+// // QUESTION NO 11
+// function capitalFirstLetter(str){
+//     var word=str.split(" ");
+//     for(var i=0;i<word.length;i++){
+//         word[i]=word[i].charAt(0).toUpperCase()+ word[i].slice(1)
+//     }
+//     console.log(word)
 
-        document.write("The factorial of 0 is 1")
-    }
-    else if (factorialNumber >= 1) {
-        for (i = 1; i <= factorialNumber; i++) {
-
-            fact *= i;
-            document.write(i + " ")
-
-        }
-        document.write(" =  " + fact)
-
-    }
-
-}
-
-function counting() {
-    document.write("<h1>Countring</h1> <br>================")
-    var startNumber = +prompt("Enter a start Number : ");
-    var EndNumber = +prompt("Enter a End Number : ");
-
-
-    for (i = startNumber; i <= EndNumber; i++) {
-
-        document.write(i + "<br>")
-    }
-
-}
-
-
-function calculateSquare(square) {
-
-    return square * square;
-}
-function hyp() {
-
-
-}
-function calculateHypotenuse() {
-
-    function calculateSquare(base, prep) {
-
-        var Findbase = base * base;
-        var FindPrep = prep * prep;
-        return FindPrep + Findbase;
-    }
-
-    var base = +prompt("Enter a base :")
-    var prep = +prompt("Enter a prependicular :")
-    var sqauresofBP = calculateSquare(base, prep)
-    document.write("Hypotenous of the triangle is : " + Math.sqrt(sqauresofBP))
-
-    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
-
-}
-
-
-function area(width, height) {
-
-    var width = +prompt("Enter a width :");
-    var height = +prompt("Enter a height :");
-
-    A = width * height;
-
-    document.write("(Argument as variable) Area of the Rectangle is " + A);
-
-    document.write("<br>")
-
-    var area = 45 * 54;
-    document.write("(Argument as value) Area of the Rectangle is : " + area)
-
-    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
-
-}
-
-
-function palindrome() {
+//     return word
+// }
+// QUESTION NO 12
+// function longestWord(wording){
+//     var maxword
+//     var maxLength =0;
+//     var wording=prompt("ENTER THE WORD");
+//     wording=wording.toLowerCase();
+//     wording=wording.split(" ")
+//     for(var i =0;i<wording.length;i++){ 
+//         if(wording[i].length>maxLength){
+//             maxLength=wording[i].length
+//              maxword=wording[i]
+//         }
+//         } 
+//         console.log(maxword)
+//         return maxword
+//     }
+// // QUESTION NO 13
+// function countingWords(text,countWord){
+//     var text;
+//     var countWord;
+//     var countWord3=0;
+//     for(var i=0;i<text.length;i++){
+//         if(text[i]===countWord){
+//             ++countWord3
+//         }
+//     }
+//     document.write("<h2>"+"THE GIVEN TEXT IS : "+text+"</h2>")
+//     document.write("<h2>"+"THE OCCURENCE OF : "+countWord +" IS "+countWord3+"TIMES"+"</h2>")
 
 
-    var text = '';
-    var userInput = prompt("Enter a string");
+//     return countWord3
+// }
+// // QUESTION NO 14
+// function calcCircumference(radius){
+//     var curcumference=2 * 3.14 * radius;
+//     curcumference=Math.round(curcumference)
+//     document.write("<h2>"+"THE CIRCUMFERENCE IS " + curcumference +"</h2>");
+//     return curcumference
 
-    for (var i = userInput.length - 1; i >= 0; i--) {
-        text += userInput[i];
-    }
-
-    if (text === userInput) {
-        swal("its palindrome");
-    }
-    else {
-        swal("its not palindrome");
-    }
-}
-
-function titledcase() {
-
-    var userInput = prompt("Enter a word or Letter").toLowerCase();
-
-    document.write("User Input : " + userInput + "<br>")
-
-    document.write("Title case : ")
-
-    var userInput = userInput.split(' ');
-    for (i = 0; i < userInput.length; i++) {
-        userInput[i] = userInput[i].charAt(0).toUpperCase() + userInput[i].slice(1) + " ";
-        document.write(userInput[i])
-    }
-    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
-
-
-}
-
-function letterOccurence(strings, character) {
-
-    var strings = prompt("Enter a string :").toLowerCase();
-    var character = prompt("Enter a character: ")
-
-    var count = 0;
-    for (var i = 0; i < strings.length; i++) {
-        if (strings.charAt(i) == character)
-            count++;
-    }
-
-    document.write("Text : " + strings + "<br>")
-    document.write("There are " + count + " occurrence(s) of the word " + character);
-    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
-
-
-}
-
-function longestWord(str){
-
-var str = prompt("Enter your string : ")
-var splitArrayValue = str.split(' ');
-
-var storeWord = "";
-
-for (var i = 0; i < splitArrayValue.length; i++) {
-    if (splitArrayValue[i].length > storeWord.length) {
-        storeWord = splitArrayValue[i];
-    }
-}
-    document.write("Actual String is : " + str + "<br>")
-    document.write("Longest word in String is : " + storeWord)
-    
-}
+// }
+// var a=calcCircumference(5)
+// function calcArea(radius){
+//     var curcumarea=3.14 * (radius * radius);
+//     document.write("<h2>"+"THE AREA OF CIRCLE IS " + curcumarea +"</h2>");
+//     return curcumarea
+// }
 
 
 
 
-function CircumferenceAndArea() {
-
-    function Circumference(r) {
-        var r = parseFloat(prompt("Enter a radius for Circumference of Cricle : "))
-        var coc = 2 * Math.PI * r;
-        document.write("Circumference of circle " + coc + "<br>");
-    }
-    function Area(r) {
-        var r = parseFloat(prompt("Enter a radius for Area of circle : "))
-        var area = Math.PI * r * r;
-        document.write("Area of the circle: " + area);
-    }
-
-    Circumference();
-    Area();
-    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
