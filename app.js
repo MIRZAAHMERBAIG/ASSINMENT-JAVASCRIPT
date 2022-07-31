@@ -1344,72 +1344,145 @@
 //     document.write("<h2>"+"THE AREA OF CIRCLE IS " + curcumarea +"</h2>");
 //     return curcumarea
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                // CHAPTER NO 38-42
+// document.write("<h2> CHAPTER 38-40 </h2>");
+// // QUESTION NO 1
+// function power(base,exponent){
+//     var powerValue=1
+//     for(var i=1;i<=exponent;i++){
+//         powerValue=powerValue*base;
+
+//     }
+//     console.log(powerValue)
+    
+// }
+// // QUESTION NO 2
+// function leapyear(a){
+//     if(a%4===0){if(a%100===0){
+//         if(a%400===0 ){console.log("this is  a leap year")}
+//         else{console.log("this is not a leap year")}
+
+//     }
+//     else(console.log("this is  a leap year"))
+//       }
+//     else(console.log("this is not a leap year"))
+
+// }
+// // question no 3
+// function areaOfTriangle(a,b,c){
+//     var s5=(a+b+c)/2;
+//     var arae3=(s5)*(s5-a)*(s5-b)*(s5-c);
+//     console.log(arae3)
+// }
+// question no 4
+// var sub1 = +prompt("Enter Obtained Marks of First Subject")
+// var sub2 = +prompt("Enter Obtained Marks of Second Subject")
+// var sub3 = +prompt("Enter Obtained Marks of Third Subject")
+
+// function avg(a, b, c) {
+//     return (a + b + c) / 2;
+// }
+// function perc(a, b, c) {
+//     return (a + b + c) * 100 / 300;
+// }
+// function mainFunction(a, b, c) {
+//     return alert(`${avg(a, b, c).toFixed(2)} is the Average and ${perc(a, b, c).toFixed(2)}% is the Percentage`);
+// }
+// QUESTION NO 5
+
+// function index() {
+//     var input = prompt("Enter your Sentence").toLowerCase();
+//     var index = prompt("Enter your letter to find its Index number");
+//     for (i = 0; i < input.length; i++) {
+//         if (input[i] === index) {
+//             console.log(i);
+//             break;
+//         }
+//         else if (i === input.length - 1) {
+//             console.log("nhi mila");
+//         }
+
+//     }
+// }
+
+// question no 6
+// var text=prompt("ENTER THE TEXT");
+// var text=text.toLowerCase()
+// for(var i=0;i<text.length;i++){
+//     if(text[i]==="a"  || text[i]==="e" || text[i]==="i" || text[i]==="o" || text[i]==="u"){
+//         text=text.slice(0,i) +text.slice(i+1)
+//     }
+// }
+// console.log(text)
+// QUESTION NO 7
+// function doubleVowelOccurence() {
+
+//     var sent = "Pleases read this application and give me gratuity".toLowerCase();
+//     var vowelPossiblity = ["aa", "ae", "ai", "ao", "au", "ee", "ea", "ei", "eo", "eu", "ii", "ia", "ie", "io", "iu", "oo", "oa", "oe", "oi", "ou", "uu", "ua", "ue", "ui", "uo"];
+//     var arr = [];
+//     for (i = 0; i < sent.length; i++) {
+//         for (j = 0; j < vowelPossiblity.length; j++) {
+//             if (sent.slice(i, i + 2) === vowelPossiblity[j]) {
+//                 arr.push(sent.slice(i, i + 2))
+//             }
+//         }
+//     }
+//     return arr;
+// }
+
+// var result = doubleVowelOccurence();
+
+// alert(result);
+
+// // QUESTION NO 8
+// function meter(a){
+//     var meter=a*1000
+//     console.log(meter)
+// }
+// function feet(a){
+//     var feet=a*3281
+//     console.log(feet)
+// }
+// function inches(a){
+//     var inches=a*39370
+//     console.log(inches)
+// }
+// function centimeter(a){
+//     var centimeter=a*100000
+//     console.log(centimeter)
+// }
+// QUESTION NO 9
+// 
+// var in = +prompt("Enter your Total Work Hour");
+
+// function overtime(a) {
+//     if ((a - 40 !== Math.abs(a - 40))) {
+//         return alert("You Didn't do Overtime");
+//     }
+//     else {
+//         return alert("You get " + (a - 40) * 12 + " Rs for your overtime");
+//     }
+// }
+
+// overtimePaid(in);
+// QUESTION NO 10
+// var input = prompt("Enter amount to withdraw!!");
+// function currencyDemonation(a) {
+//     var string = a.slice(-2);
+//     var calc = Number(a.slice(-2));
+//     var hundred = Number(a.slice(0, a.length - 2));
+//     var ten = Number(a.slice(0, a.length - 2));
+//     var fivety = 0;
+//     if (calc - 50 === Math.abs(calc - 50)) {
+//         calc = calc - 50;
+//         string = calc.toString();
+//         ten = string.slice(0, 1);
+//         fivety = 1;
+//     }
+//     else {
+//         string = calc.toString();
+//         ten = string.slice(0, 1);
+//     }
+//     var result = `You will have ${hundred} hundred notes ${fivety} fivety notes ${ten} ten notes.`;
+//     return result;
+// }
